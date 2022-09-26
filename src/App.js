@@ -1,15 +1,15 @@
-const songs = [
-  { id: 1, name: '痴心绝对' },
-  { id: 2, name: '像我这样的人' },
-  { id: 3, name: '南山南' }
-]
-
+import './App.css'
+const style = {
+  color:'red',
+  fontSize:30
+}
+const flag = false
 function App () {
   return (
     <div className="App">
-      <ul>
-        <li></li>
-      </ul>
+      <span style={style}>this is  span</span>
+      <span className={flag ? 'active' : null}>jichuyongfa</span>
+
 
     </div>
   )
